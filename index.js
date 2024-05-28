@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 app.get("/", (req, res) => {
     res.status(200).send({
         status: "success",
-        message: "Hello World from Cloud Run GitHub Actions! semoga berhasil"
+        message: "Hello World from Cloud Run GitHub Actions! dari branch febri"
     });
 });
 
